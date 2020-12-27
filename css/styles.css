@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+*{
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+.headerColor {
+  background-color: #ffffff !important;
+  box-shadow: 0px 0px 0px 0px;
+}
+.headerLogo {
+  width: 100%;
+  max-width: 70px;
+  height: 100%;
+  max-height: 70px;
+  padding: 4px;
+  margin: 0px 215px;
+}
+.headerListItem{
+  padding:0px 25px;
+}
+.headerListItem>a{
+  color:#000 !important
+}
+#home,#about,#skills,#experience,#contact  {   
+   min-height: 100vh;
+   padding: 10px 0px;
+}
+
+.fontBig{
+  font-weight:bold
+}
+/* Home Starts */
+/* .rightColumnContainer{
+  background: #D3CCE3;  
+}*/
+.leftColumnContainer{
+  min-height: 100vh !important;
+  background-image: url('../images/image11.jpeg');
+  background-size: cover;
+  background-position: inherit;
+} 
+.rightInner{
+  padding: 150px 0px;
+  text-align: center;
+}
+.button-inner{
+  padding: 0px;
+}
+
+.socialDiv{
+  padding: 100px 0px;
+  text-align: center;
+}
+.techStackDiv{
+  padding: 25px 0px;
+  text-align: center;
+}
+/* Home ends */
+
+/* About Starts */
+.cardTitleFont{
+  font-size: 18px !important;
+}
+/* About ends */
